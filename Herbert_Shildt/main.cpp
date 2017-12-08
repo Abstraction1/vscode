@@ -1,5 +1,5 @@
 #include <iostream>
-#include "/home/default/vscode/Herbert Shildt/Chapter6.2/src/example1.h"
+#include "/home/default/vscode/Herbert_Shildt/Chapter6.2/src/example1.h"
 
 int main() {
 	Exmpl_1 object1_1 ( 10, 10);

@@ -3,10 +3,10 @@ CFLAGS=-c -Wall
 LDFLAGS=
 TARGET=clickme
 
-SRC=/home/default/vscode/Herbert Shildt/Chapter6.2/src
-TASKDIR=/home/default/vscode/Herbert Shildt/Chapter6.2/home
+SRC=/home/default/vscode/Herbert_Shildt/Chapter6.2/src
+TASKDIR=/home/default/vscode/Herbert_Shildt/Chapter6.2/home
 
-SOURCES=main.cpp 
+SOURCES=main.cpp $(SRC)/example1.cpp
 
 OBJECTS=$(SOURCES:.cpp=.o)
 PREFIX=/usr/local/bini
