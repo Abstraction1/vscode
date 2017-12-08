@@ -1,2 +1,4 @@
 *.pdf
 *.o
+.vscode/launch.json
+Herbert_Shildt/Chapter6.2/clickme
