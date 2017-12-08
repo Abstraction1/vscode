@@ -3,8 +3,8 @@ CFLAGS=-c -Wall
 LDFLAGS=
 TARGET=clickme
 
-SRC=/home/default/cpp/shildt/chapter6.3/src
-TASKDIR=/home/default/cpp/shildt/chapter6.3/hometask
+SRC=/home/default/vscode/Herbert Shildt/Chapter6.2/src
+TASKDIR=/home/default/vscode/Herbert Shildt/Chapter6.2/home
 
 SOURCES=main.cpp 
 

@@ -1,4 +1,5 @@
 #ifndef _GOD_H
+#define _GOD_H
 
 class _God {
 public:
