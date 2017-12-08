@@ -5,7 +5,7 @@ class _God {
 public:
 	_God ();
 	_God ( int xValue, int yValue ); 
-	void GetXY ( int& xValue, int& yValue );
+	 void GetXY ( int& xValue, int& yValue );
 protected:
 	int _xValue;
 	int _yValue;

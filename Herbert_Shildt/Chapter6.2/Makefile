@@ -3,10 +3,10 @@ CFLAGS=-c -Wall
 LDFLAGS=
 TARGET=clickme
 
-SRC=/home/default/vscode/Herbert_Shildt/Chapter6.2/src
-TASKDIR=/home/default/vscode/Herbert_Shildt/Chapter6.2/home
+SRC=src
+TASKDIR=home
 
-SOURCES=main.cpp $(SRC)/example1.cpp
+SOURCES=main.cpp $(SRC)/example1.cpp $(SRC)/_god.cpp
 
 OBJECTS=$(SOURCES:.cpp=.o)
 PREFIX=/usr/local/bini
@@ -17,7 +17,7 @@ all: $(SOURCES) $(TARGET)
 clean:
 	rm -rf $(TARGET) *.o \
 	rm -rf src/*.o \
-	rm -rf hometask/*.o
+	rm -rf home/*.o
 install:
 	install $(TARGET) $(PREFIX)
 inistall:
