@@ -9,4 +9,4 @@ protected:
 	int _yValue;
 };
 
-#endif // _GOD_H
+#endif // _GOD_HG
