@@ -1,12 +1,12 @@
 CC=g++
-CFLAGS=-c -Wall
+CFLAGS=-c -Wall -g
 LDFLAGS=
 TARGET=clickme
 
 SRC=src
 TASKDIR=home
 
-SOURCES=main.cpp $(SRC)/example1.cpp $(SRC)/_god.cpp $(SRC)/example2.cpp 
+SOURCES=main.cpp $(SRC)/example1.cpp $(SRC)/_god.cpp $(SRC)/example2.cpp $(SRC)/example3.cpp $(TASKDIR)/task1.cpp
 
 OBJECTS=$(SOURCES:.cpp=.o)
 PREFIX=/usr/local/bini
