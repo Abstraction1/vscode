@@ -2,6 +2,8 @@
 #include "src/example1.h"
 #include "src/example2.h"
 #include "src/example3.h"
+#include "home/task1.h"
+
 int main() {
 	Exmpl_1 object1_1 ( 10, 10 ), object2_1 ( 5, 3 ), object3_1;
 	int x1, y1;
@@ -34,6 +36,16 @@ int main() {
 	obj3_3 = obj1_3 + 100;
 	obj3_3.GetXY ( x3, y3 );
 	std::cout << "( object1_3 - object2_3 ) X: " << x3 << ", Y: " << y3 << "\n";
+	std::cout << "\t\t\thome task\n";
+	std::cout << "-----------------------------------------------------------\n";
+	std::cout << "1:\n";
+	
+	Task1 objTask1_1 ( 10, 10 ), objTask1_2 ( 5, 3 ), objTask1_3;
+	objTask1_3 = objTask1_1 * objTask1_2;
+	int xtask1_1, ytask1_1;
+	objTask1_3.GetXY ( xtask1_1, ytask1_1 );
+	
+	std::cout << "( objTask1_1 * objTask1_2 ) X: " << xtask1_1 << ", Y: " << ytask1_1 << "\n";
 	
 	return 0;
 }
